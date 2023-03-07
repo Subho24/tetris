@@ -1,7 +1,7 @@
 body {
     text-align: center;
     color: white;
-    background-image: url("/image-asset.png");
+    background-image: url("./image-asset.png");
 }
 
 .container {
