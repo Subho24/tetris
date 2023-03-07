@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    color: white;
+    background-image: url("/image-asset.png");
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 50%;
+  background-color: black;
+  margin: 0px 0px 0px 35%
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+  opacity: 70%;
+}
+
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  opacity: 50%;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
